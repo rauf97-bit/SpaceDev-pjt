@@ -1,0 +1,158 @@
+:root {
+  --main-pry: rgba(0, 120, 231, 1);
+}
+
+body,
+html {
+  background: #e5e5e5 !important;
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Poppins;
+  overflow-x: hidden;
+}
+
+.quote-btn {
+  height: 41px;
+  width: 167px;
+  border-radius: 36.5px !important;
+  padding: 3px, 67px, 3px, 67px;
+  background: linear-gradient(0deg, #ffffff, #ffffff), #ffffff;
+  box-shadow: 4px 3px 4px rgba(0, 0, 0, 0.25);
+}
+
+.my-container {
+  margin: 0 3%;
+}
+
+header {
+  padding: 15px 0;
+}
+
+.award-text {
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #8d8b8b;
+  margin-bottom: 0 !important;
+}
+.intro-text {
+  font-size: 4rem;
+  line-height: 5rem;
+  width: 75%;
+}
+.search {
+  border-radius: 90px;
+  width: 240px;
+  padding: 27px 40px;
+  background: #0078e7;
+  border-radius: 90px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+}
+.monitor {
+  height: 90%;
+  width: 100%;
+}
+
+.intro .container-fluid {
+  padding: 0;
+}
+.eco-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--main-pry);
+  height: 55vh;
+}
+.eco-text {
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+
+.card {
+  padding: 0% !important;
+  width: 210px !important;
+  height: 270px;
+  min-width: 140px !important;
+  background: #ffffff !important;
+  box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25) !important;
+  border-radius: 34px !important;
+}
+
+.card img {
+  position: absolute;
+  top: -25%;
+  right: 20%;
+}
+
+@media (max-width: 992px) {
+  .intro-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-text {
+    font-size: 3rem;
+  }
+  .collapse .ms-5 {
+    margin: 0% !important;
+  }
+  .navbar-nav {
+    justify-content: center;
+    align-items: center;
+  }
+  .quote-btn-div {
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+  body
+    > section.developers
+    > div
+    > div
+    > div:nth-child(1)
+    > div
+    > div
+    > div:nth-child(1) {
+    margin-bottom: 100px;
+  }
+
+  .curve,
+  .search {
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+  }
+  .search {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 468px) {
+  .intro-text {
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+  }
+  .award-text {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .search {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    padding: 12px;
+    width: 200px;
+  }
+  .div .mt-5 {
+    margin-top: 1rem !important;
+  }
+}

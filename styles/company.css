@@ -1,0 +1,12 @@
+.comment-text {
+  width: 50%;
+  margin: 10px auto;
+  margin-bottom: 35px;
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .comment-text {
+    width: 95%;
+  }
+}

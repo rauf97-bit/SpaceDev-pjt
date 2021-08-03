@@ -1,0 +1,38 @@
+.my-display img {
+  height: 100%;
+  width: 100%;
+}
+.my-grid1,
+.my-grid2 {
+  display: grid;
+}
+.my-grid2 {
+  grid-template-columns: 3fr 3fr 2fr;
+  gap: 20px;
+}
+.my-grid1 {
+  grid-template-columns: 3fr 2fr 3fr;
+  gap: 20px;
+}
+
+@media (max-width: 778px) {
+  .slash {
+    display: none;
+  }
+  .my-grid1,
+  .my-grid2 {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 480px) {
+  .my-grid2,
+  .my-grid1 {
+    grid-template-columns: 1fr;
+  }
+  .my-display img {
+    width: 80%;
+    margin: auto;
+  }
+}

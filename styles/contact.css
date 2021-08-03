@@ -1,0 +1,47 @@
+.contact-container {
+  margin: 0 25%;
+}
+
+body > section > div > form > h1 {
+  width: 100% !important;
+}
+
+.contact-btn {
+  background: rgba(0, 120, 231, 1);
+  color: white;
+  text-align: center;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 1px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+.input-group {
+  flex-direction: column;
+}
+.form-control {
+  width: 100% !important;
+  padding: 15px 0 !important;
+}
+textarea {
+  border: 1px solid #ced4da;
+}
+input,
+textarea {
+  background: rgba(220, 223, 234, 1) !important;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    margin: 0 10%;
+  }
+}
+
+@media (max-width: 468px) {
+  .contact-container {
+    margin: 0 5%;
+  }
+}
