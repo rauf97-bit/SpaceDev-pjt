@@ -38,10 +38,14 @@ header {
   color: #8d8b8b;
   margin-bottom: 0 !important;
 }
-.intro-text {
+.intro-text,
+.main-text {
   font-size: 4rem;
   line-height: 5rem;
   width: 75%;
+}
+.main-text {
+  width: 95% !important;
 }
 .search {
   border-radius: 90px;
